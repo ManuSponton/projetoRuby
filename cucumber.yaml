@@ -1,0 +1,7 @@
+---
+default: -p html -p dot -p sem_headless
+html: --format html --out=log/fetaures.html
+dot: --format progress 
+pretty: --format pretty
+com_headless: HEADLESS=com_headless
+sem_headless: HEADLESS=sem_headless
